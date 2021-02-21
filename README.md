@@ -4,7 +4,7 @@
 
 This is just a simple python script to sort a large amoung of audio files by language spoken in them.
 This also includes an audio conversion script for converting the base files to WAV format.
-The tool as far as I can tell has about a 87/100 average accuracy.
+The tool as far as I can tell from my testing has about a 87/100 average accuracy, I do plan on improving the accuracy in the future once the support for the beta functionality for detecting languages in the googles speech recognition apis are supported by the modules I use.
 
 ## Usage Instructions
 
