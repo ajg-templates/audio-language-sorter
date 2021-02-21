@@ -1,6 +1,6 @@
 <p align="center"><img width=12.5% src="https://i.ibb.co/K6RrTjc/logo.png"></p>
 
-## Basic Overview
+## Audio Language Sorter
 
 This is just a simple python script to sort a large amoung of audio files by language spoken in them.
 This also includes an audio conversion script for converting the base files to WAV format.
