@@ -64,5 +64,6 @@ for filename in wav_files:
       except (sr.UnknownValueError, lang_detect_exception.LangDetectException):
             if not os.path.exists(global_unsure_dir):
                os.makedirs(global_unsure_dir)
+            copyfile(filename, global_unsure_dir + "//" + tail)
             print(current_file_string + " [FAILED] Didn't detect a language with high enough probability. Copying to '" + global_unsure_dir + "'.")
    current += 1
