@@ -17,7 +17,7 @@ The tool as far as I can tell has about a 87/100 average accuracy.
 ## Folder Scructure
   `audio_files` - Input files, these can be in any format.
   
-  `output` - Where the sorted files go into subfolders labeled with the (ISO 639-1 codes)[https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes].
+  `output` - Where the sorted files go into subfolders labeled with the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1 codes</a>.
   
   `tools` - Where I store the extra python scripts for converting files.
   
