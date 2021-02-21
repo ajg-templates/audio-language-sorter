@@ -2,12 +2,18 @@
 
 ## Basic Overview
 
-A brief description of the project.
+This is just a simple python script to sort a large amoung of audio files by language spoken in them.
+This also includes an audio conversion script for converting the base files to WAV format.
+The tool as far as I can tell has about a 87/100 average accuracy.
 
-<br>
+## Usage Instructions
 
-## Links
+1) Run `pip install -r requirements.txt` to install the required modules.
 
-[Project's trello board](https://google.com) - This includes all of the future changes and things in development and is what i use for sorting tasks for all projects. 
+2) Place all of your files of any format into the audio_files folder.
 
-[Live Website](https://google.com) - Live website for this project if there is one.
+3) Run `main.py` and select `y` if you need to convert your files.
+
+## Options
+
+You can change the accuracy and directories at the top of the `main.py` directory.
